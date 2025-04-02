@@ -269,12 +269,7 @@ const Career = () => {
               </TabsContent>
             </Tabs>
             
-            <div className="mt-12 text-center">
-              <p className="text-muted-foreground mb-4">Don't see a position that matches your skills?</p>
-              <AnimatedButton variant="primary">
-                Submit General Application
-              </AnimatedButton>
-            </div>
+            
           </div>
         </div>
       </section>

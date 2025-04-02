@@ -16,7 +16,7 @@ const DirectorMessage = () => {
             <div className="md:col-span-2">
               <div className="relative rounded-2xl overflow-hidden shadow-xl animate-fade-in">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80" 
+                  src="https://media-hosting.imagekit.io/b7774f29c11a496c/WhatsApp%20Image%202025-04-02%20at%2018.53.46_5e8846b8.jpg?Expires=1838212120&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jkT0x239j0dab01QKe6MO0u1k6~3nfsAApbgQSYtvtbQUcdpTdHocw5DKaZ3zqnUSpG5gAsnzRDepasv8nq40BXkIfL30khkkp9aFPY7oLig6vg7R58x0gI26TJkcMV9WysL0ZdPzujjduwTbFVh0Uco5VmmCaDDHL1aNDpD2U5H7NGMnE4UtfID1-54uhX1aYO8NMQ9ggVpJGhFG8z8LZKd8hIo2BRtY0BiV5YIQ-Lfxv4au65eNsHASxYIrAeS18~UOiSSZ1zLo-eUi6A~5Kk8ymcksF3y19GkDWxFTnLxukM37fvQK4yMHVsECLC3hAMsPrtDeLOywFAQRs7TIg__" 
                   alt="Sunrise Media House Director" 
                   className="w-full h-auto object-cover transform transition-transform duration-700 hover:scale-105"
                 />

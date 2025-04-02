@@ -22,7 +22,7 @@ const ContactFormFields = ({ formState, handleChange }: ContactFormFieldsProps) 
           <Input 
             id="name" 
             name="name" 
-            placeholder="John Doe"
+            placeholder="Rahul Singh"
             required
             value={formState.name}
             onChange={handleChange}
@@ -36,7 +36,7 @@ const ContactFormFields = ({ formState, handleChange }: ContactFormFieldsProps) 
             id="email" 
             name="email" 
             type="email" 
-            placeholder="john@example.com"
+            placeholder="priya@example.com"
             required
             value={formState.email}
             onChange={handleChange}
@@ -50,7 +50,7 @@ const ContactFormFields = ({ formState, handleChange }: ContactFormFieldsProps) 
         <Input 
           id="phone" 
           name="phone" 
-          placeholder="(555) 123-4567"
+          placeholder="(+91) 12334-45677"
           value={formState.phone}
           onChange={handleChange}
           className="bg-white/50"

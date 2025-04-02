@@ -14,7 +14,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Email</p>
-              <p className="font-medium">info@sunrisemediahouse.com</p>
+              <p className="font-medium">Sunrisedun@gmail.com</p>
             </div>
           </div>
           
@@ -24,7 +24,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <p className="text-sm text-muted-foreground">Phone</p>
-              <p className="font-medium"> +91 - 9988776655</p>
+              <p className="font-medium"> +91 - 9837886184</p>
             </div>
           </div>
           

@@ -7,44 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BarChart, Heart, Target, Zap, Award, Star, CheckCircle } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 
-const teamMembers = [
-  {
-    name: "Sohan Bharti",
-    title: "Founder & CEO",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-    bio: "Alexander founded Sunrise Media House with a vision to transform how businesses connect with audiences through strategic media placements. With over 20 years of industry experience, he leads the company's strategic direction and innovation initiatives."
-  },
-  {
-    name: "Vishal Raj",
-    title: "Chief Strategy Officer",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80",
-    bio: "Sarah oversees all strategic planning and media buying operations. Her expertise in audience targeting and media optimization has helped clients achieve exceptional ROI across radio, television, and digital campaigns."
-  },
-  {
-    name: "Abhishek Chauhan",
-    title: "Chief Technology Officer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-    bio: "David leads our technology initiatives, developing innovative solutions for campaign tracking, audience analysis, and performance reporting. His background in data science and media analytics drives our data-first approach."
-  },
-  {
-    name: "Kuhan meena",
-    title: "Creative Director",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80",
-    bio: "Emily brings creative excellence to all client campaigns, overseeing content development for radio, television, and digital platforms. Her award-winning approach to storytelling helps brands create meaningful connections with audiences."
-  },
-  {
-    name: "sudhanshu sai painkra",
-    title: "Director of Client Services",
-    image: "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    bio: "James ensures exceptional service delivery for all clients, managing our account teams and establishing best practices for client relationships. His client-first philosophy drives our high retention rates and satisfaction scores."
-  },
-  {
-    name: "Shasank Singh",
-    title: "Head of Digital Media",
-    image: "https://images.unsplash.com/photo-1580894732930-0babd100d356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
-    bio: "Michelle specializes in digital advertising strategies across social media, programmatic, and emerging platforms. Her innovative approaches to digital integration have helped clients achieve breakthrough performance in the digital space."
-  }
-];
+
 
 const About = () => {
   useEffect(() => {
@@ -165,38 +128,7 @@ const About = () => {
         </div>
       </section>
       
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-media-lightBlue/20" id="team">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <Badge variant="outline" className="mb-4 px-3 py-1 border-media-blue text-media-blue bg-media-lightBlue/30">
-              Our Team
-            </Badge>
-            <h2 className="section-title">Meet the Experts</h2>
-            <p className="section-subtitle">
-              Our leadership team brings decades of combined experience in media, marketing, 
-              and advertising to deliver exceptional results for our clients.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-x-8 gap-y-16 max-w-6xl mx-auto">
-            {teamMembers.map((member, index) => (
-              <div key={member.name} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                <div className="text-center">
-                  <div className="relative mb-6 mx-auto w-48 h-48">
-                    <Avatar className="w-full h-full border-4 border-white shadow-lg">
-                      <AvatarImage src={member.image} alt={member.name} className="object-cover" />
-                      <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
-                    </Avatar>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-                  <p className="text-media-blue mb-4">{member.title}</p>
-                  <p className="text-muted-foreground text-sm">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
       
       <section className="py-16 md:py-24 bg-white" id="success-stories">
         <div className="container mx-auto px-4">

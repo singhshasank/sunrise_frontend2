@@ -16,24 +16,17 @@ const Footer = () => {
               <div className="flex items-center text-2xl font-bold">
                 <span className="text-media-blue">Sunrise</span>
                 <span className="text-media-green">Media</span>
+                <span className="text-media-blue">House</span>
               </div>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
               Sunrise Media House is a premier advertising service provider specializing in radio, television, and digital media placements to help businesses amplify their message.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-media-blue transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/1GYBENEh5C/" className="text-muted-foreground hover:text-media-blue transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-media-blue transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-media-blue transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-media-blue transition-colors" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
+            
             </div>
           </div>
           
@@ -87,17 +80,16 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 text-media-blue" />
-                <span className="text-muted-foreground">info@sunrisemediahouse.com</span>
+                <span className="text-muted-foreground">Sunrisedun@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-media-blue" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">(+91) 98378 86184</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-media-blue" />
                 <span className="text-muted-foreground">
-                  1234 Media Avenue<br />
-                  New York, NY 10001
+                Lane No. 3, Ashok Vihar, Salawala, Rajpur Road,<br/> Dehradun Uttrakhand (248197)
                 </span>
               </li>
             </ul>
