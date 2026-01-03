@@ -36,7 +36,7 @@ const Navbar = () => {
     className="flex items-center space-x-3 md:space-x-4 text-2xl md:text-3xl font-extrabold text-white transition-all duration-300 hover:text-yellow-400 group"
   >
     <img 
-      src="https://i.ibb.co/QjzJNjV2/Chat-GPT-Image-Jan-3-2026-12-34-38-PM.png" 
+      src="https://i.postimg.cc/qt5dT06H/SMH-LOGO.png" 
       alt="Sunrise Media House Director" 
       className="w-16 h-16 md:w-24 md:h-24 object-cover rounded-full transform transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12"
     />
