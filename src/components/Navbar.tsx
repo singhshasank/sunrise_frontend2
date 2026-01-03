@@ -36,7 +36,7 @@ const Navbar = () => {
     className="flex items-center space-x-3 md:space-x-4 text-2xl md:text-3xl font-extrabold text-white transition-all duration-300 hover:text-yellow-400 group"
   >
     <img 
-      src="https://media-hosting.imagekit.io/5bf2174532fe41b2/Adobe%20Express%20-%20file.png?Expires=1838214115&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wZIC8XJWiqJMRIFUT6lVi9rsJZ7TV6Z3V3KkmchzdVN0377Ta1Abb4pPKPj5kw6jQ14hX8BMCX50AOZ7TtBzEFw0WXCzTWxYaDoKrw5B2Ka7p9yUjCzMOELkQLGvowNGeT3LtPjd3VRlY8okzGSBgY8i2FSwI0BhrY8SYq1QcIbMmkczhSbpnNswWB3lF8R9q4AumeDbcdlNd9TsDZKiDyF4nAvCuAeg-qyIvuy7b4LLRlewETqWf1s~B-h2lGAcwQEFd8eLgVYp7c01O9xX2JnLxrHXO2oYQRGuhHOmMeu52fbJ38HWH9Plr0d~tWJZS6CGsP0-CNQL2zIqJCz70Q__" 
+      src="https://i.ibb.co/QjzJNjV2/Chat-GPT-Image-Jan-3-2026-12-34-38-PM.png" 
       alt="Sunrise Media House Director" 
       className="w-16 h-16 md:w-24 md:h-24 object-cover rounded-full transform transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12"
     />
