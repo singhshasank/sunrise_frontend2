@@ -80,7 +80,7 @@ const Index = () => {
       <DirectorMessage />
       
       <section className="py-16 md:py-24 bg-white overflow-hidden relative">
-        <div className="absolute inset-0 bg-[url('[url=https://ibb.co/B5662sRK][img]https://i.ibb.co/B5662sRK/Whats-App-Image-2026-01-03-at-11-15-12-AM.jpg[/img][/url]')] bg-cover bg-center opacity-5"></div>
+        <div className="absolute inset-0 bg-[url('https://i.ibb.co/gLWWZgCF/Whats-App-Image-2026-01-03-at-11-15-12-AM.jpg')] bg-cover bg-center opacity-10"></div>
         
         <div className="container mx-auto px-4 relative">
           <div className="max-w-4xl mx-auto text-center">
