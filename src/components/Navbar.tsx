@@ -38,7 +38,7 @@ const Navbar = () => {
     <img 
       src="https://i.postimg.cc/qt5dT06H/SMH-LOGO.png" 
       alt="Sunrise Media House Director" 
-      className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-full transform transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12"
+      className="w-32 h-32 md:w-36 md:h-36 object-cover rounded-full transform transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12"
     />
     <div className="text-left">
       <span className="text-media-blue">Sunrise</span>
