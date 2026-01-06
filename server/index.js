@@ -10,7 +10,16 @@ const messageRoutes = require('./routes/messageRoutes');
 dotenv.config(); // ❌ remove .env.example
 
 const app = express();
+// 🔥 Allow OPTIONS explicitly
+router.options('*', (req, res) => {
+  res.sendStatus(200);
+});
 
+router.post('/', async (req, res) => {
+  res.status(200).json({ message: 'Contact received' });
+});
+
+module.exports = router;
 // ✅ REQUIRED FOR RENDER / PROXIES
 app.set('trust proxy', 1);
 
