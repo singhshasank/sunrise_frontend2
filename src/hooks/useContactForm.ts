@@ -9,7 +9,8 @@ type FormState = {
   message: string;
 };
 
-const API_URL = 'https://sunrise-backendoiugty.onrender.com';
+// Use relative API path so Vite dev server proxy handles CORS during development
+const API_URL = '';
 
 export const useContactForm = () => {
   const { toast } = useToast();
@@ -36,7 +37,7 @@ export const useContactForm = () => {
 
     try {
       await axios.post(
-        `${API_URL}/api/contact`,
+        `/api/contact`,
         formState,
         {
           headers: {
